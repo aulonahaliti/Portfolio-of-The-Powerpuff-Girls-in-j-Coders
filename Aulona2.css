@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#skill{
+    width: 98.8vw;
+    height: 53em;
+    /* background-color: violet; */
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: -moz-hidden-unscrollable(x,y); */
+    margin-top: 8em;
+    padding-top: 7em;
+}
+.topleft,
+.topright{
+    margin-top: 20px;
+}
+.topleft{
+    width: 55%;
+    height: 40%;
+    /* background-color: red; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+/* .randomflex{
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 90%;
+    z-index:-0.1;
+} */
+.hards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 90%;
+    /* background-color: aqua; */
+    /* position: relative; */
+    border-right: 3px solid #63BEFF;
+}
+#hs{
+    /* position: r; */
+    top: 0.5em;
+    z-index: -100;
+    font-size: 35px;
+    color: #DB9A4F;
+}
+#ss{
+    font-size: 35px;
+    color: #1970AE;
+}
+.softs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 90%;
+    border-left: 3px solid #63BEFF;
+    /* background-color: rgb(47, 255, 0); */
+    /* position: relative; */
+}
+#hardskill {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    width: auto;
+    /* position: relative; */
+    top: -2.7em;
+}
+#softskill {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.topright{
+    width: 45%;
+    height: 55%;
+    /* background-color: grey; */
+}
+.foto1,
+.foto2{
+    width: 25em;
+    height: 25em;
+    z-index: -100;
+}
+.foto1{
+    top: -7em;
+    left: -4em;
+}
+.foto2{
+    right: -10em;
+    top: -19em;
+    width: 32em;
+    height: 30em;
+}
+.bottomleft{
+    width: 40%;
+    height: 50%;
+    /* background-color: blue; */
+    /* position: relative; */
+    bottom: 5%;
+}
+.foto3{
+    width: 53em;
+    height: 40em;
+    top: -9em;
+    left: -6em;
+}
+.bottomright{
+    width: 60%;
+    height: 50%;
+    /* background-color: green; */
+    /* position: relative; */
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hobbys{
+    display: flex;
+    flex-direction: column;
+}
+#hobin{
+    font-size: 35px;
+    color: #7050EC;
+}
+#interest{
+    display: flex;
+    flex-direction: column;
+}
+.rreth-1,
+.rreth-2{
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #63BEFF;
+    border-radius: 50%;
+    z-index: -100;
+}
+.rreth-1{
+    position: relative;
+    top: -10em;
+    left: 25.4em;
+}
+.rreth-2{
+    position: relative;
+    top: 10em;
+    right: 25.4em;
+}
